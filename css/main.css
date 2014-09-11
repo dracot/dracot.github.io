@@ -23,11 +23,11 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background: #D3D3D3;
+	background: #ffefdb;
 	//background: url(../images/bg.jpg);
-	color: #242424;
+	color: #8b8378;
 	font-family: akashiregular;
-	text-shadow: 1px 1px 1px #7E7E7E;
+	text-shadow: 1px 1px 1px #eedfcc;
 }
 
 #container {
