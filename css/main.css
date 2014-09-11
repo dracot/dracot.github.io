@@ -24,7 +24,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	//background: #242424;
-	background: url(../images/bg.jpg) no-repeat;
+	background: url(../images/bg.jpg);
 	color: #FFFFFF;
 	font-family: akashiregular;
 	text-shadow: 2px 2px 2px #808080;
