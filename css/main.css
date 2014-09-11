@@ -23,9 +23,9 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background: #242424;
+	background: #808080;
 	//background: url(../images/bg.jpg);
-	color: #FFFFFF;
+	color: #242424;
 	font-family: akashiregular;
 	text-shadow: 2px 2px 2px #808080;
 }
