@@ -24,22 +24,35 @@ html, body {
 	height: 100%;
 	width: 100%;
 	background: #fffafa;
-	//background: url(../images/bg.jpg);
 	color: #8b8989;
 	font-family: akashiregular;
 	text-shadow: 1px 1px 1px #cdcdc1;
 }
 
-#container {
-	margin: auto auto;
-	width: 500px;
-	height: 150px;
+.ui.header.caption {
+	font-weight: normal;
 }
 
-#name {
-	font-size: 150px;
+@media screen and (min-width: 500px) {
+	.ui.huge.header.name {
+		font-size: 9em;
+		font-weight: normal;
+		color: #8b8989;
+	}
 }
 
-#caption {
-	font-size: 20px;
+@media screen and (min-width: 400px) and (max-width: 500px) {
+	.ui.huge.header.name {
+		font-size: 7em;
+		font-weight: normal;
+		color: #8b8989;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.ui.huge.header.name {
+		font-size: 4em;
+		font-weight: normal;
+		color: #8b8989;
+	}
 }
