@@ -33,7 +33,7 @@ html, body {
 	font-weight: normal;
 }
 
-@media screen and (min-width: 900px) {
+@media handheld and (min-width: 900px) {
 	.ui.huge.header.name {
 		font-size: 15em;
 		font-weight: normal;
