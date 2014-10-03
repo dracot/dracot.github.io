@@ -21,10 +21,12 @@ html, body {
 	text-shadow: 1px 1px 1px #cdcdc1;
 }
 
-.caption {
-	/*font-size: 1.5em;*/
-}
+@media screen and (min-width: 1500px) {
+	.caption {
+		font-size: 3em;
+	}
 
-.name {
-	/*font-size: 4em;*/
+	.name {
+		font-size: 14em;
+	}
 }
