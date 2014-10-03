@@ -19,4 +19,5 @@ html, body {
 	font-family: akashiregular;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px #cdcdc1;
+	display: block;
 }
