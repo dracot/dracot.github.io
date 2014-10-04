@@ -13,12 +13,26 @@
 
 }
 
+@font-face {
+    font-family: 'exomedium';
+    src: url('../font/exo-medium-webfont.eot');
+    src: url('../font/exo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/exo-medium-webfont.woff2') format('woff2'),
+         url('../font/exo-medium-webfont.woff') format('woff'),
+         url('../font/exo-medium-webfont.ttf') format('truetype'),
+         url('../font/exo-medium-webfont.svg#exomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body {
 	background: #fffafa;
 	color: #8b8989;
 	font-weight: normal;
 	margin: 0px;
 	text-align: center;
+	font-family: exomedium;
 }
 
 #top tr {
@@ -38,6 +52,7 @@ html, body {
 
 	#about {
 		margin-top: 20px;
+		font-family: exomedium;
 	}
 }
 
