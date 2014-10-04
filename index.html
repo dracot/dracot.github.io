@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>dracot</title>
 		<script>
+			alert(parent.document.getElementsByTagName("head")[0]);
+			alert(parent.document.getElementsByTagName("meta")[0]);
+			var meta = document.createElement("meta");
+			meta.name = "viewport";
+			meta.content = "width=device-width";
+			parent.document.getElementsByTagName("head")[0].appendChild(meta);
+			alert(parent.document.getElementsByTagName("meta")[0]);
 			alert(window.innerWidth);
 			alert(window.screen.width);
 		</script>
