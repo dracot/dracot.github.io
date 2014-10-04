@@ -19,8 +19,21 @@ html, body {
 	font-family: akashiregular;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px #cdcdc1;
+	margin: 0px;
+	text-align: center;
 }
 
-.name {
+#top {
+}
+
+#name {
 	font-size: 3em;
+}
+
+#caption {
+	color: #b88686;
+}
+
+#about {
+	text-align: justify;
 }
