@@ -20,3 +20,7 @@ html, body {
 	font-weight: normal;
 	text-shadow: 1px 1px 1px #cdcdc1;
 }
+
+.name {
+	font-size: 3em;
+}
