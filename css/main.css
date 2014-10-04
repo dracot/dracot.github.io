@@ -80,10 +80,6 @@ html, body {
 	text-shadow: 1px 1px 1px #cdcdc1;
 }
 
-#roadsidefoods {
-	text-shadow: 1px 1px 1px #cdcdc1;
-}
-
 #about {
 	text-align: justify;
 }
@@ -91,4 +87,5 @@ html, body {
 #roadsidefoods {
 	font-family: exobold;
 	font-size: 3em;
+	text-shadow: 1px 1px 1px #cdcdc1;
 }
