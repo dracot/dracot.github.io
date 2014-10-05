@@ -87,6 +87,7 @@ html, body {
 	font-family: akashiregular;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 1px #cdcdc1;
+	padding-top: 9px;
 }
 
 #rsf-about {
