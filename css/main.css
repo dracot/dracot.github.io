@@ -48,7 +48,7 @@ html, body {
 }
 
 @media (max-width: 768px), (max-device-width: 768px) {
-	#top tr > td {
+	#borderless tr > td {
 	    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) !important;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) !important;
 	}
@@ -59,7 +59,7 @@ html, body {
 	}
 }
 
-#top tr {
+#borderless tr {
 	border: 0px;
 }
 
@@ -74,3 +74,6 @@ html, body {
 	color: #A1CF64;
 }
 
+#who {
+	font-size: 3em;
+}
