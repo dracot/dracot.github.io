@@ -47,15 +47,32 @@ html, body {
 	font-family: exomedium;
 }
 
-@media (max-width: 768px), (max-device-width: 768px) {
+@media (max-width: 768px) {
 	#borderless tr > td {
 	    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) !important;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) !important;
 	}
 
-	#top td:last-child {
+	#borderless td:last-child {
 	    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) !important;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) !important;
+	}
+
+	table[showon="desktop"] {
+		display: none!important;
+	}
+
+	table[showon="handheld"] {
+		display: inherit!important;
+	}
+}
+
+@media (min-width: 769px) {
+	table[showon="handheld"] {
+		display: none!important;
+	}
+	table[showon="desktop"] {
+		display: inherit!important;
 	}
 }
 
@@ -72,8 +89,4 @@ html, body {
 #caption {
 	font-family: akashiregular;
 	color: #A1CF64;
-}
-
-#answer {
-	font-size: 3em;
 }
