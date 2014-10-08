@@ -39,8 +39,8 @@
 }
 
 html, body {
-	background: #fffafa;
-	color: #8b8989;
+	background: #1C4B7E;
+	color: #0D3A6B;
 	font-weight: normal;
 	margin: 0px;
 	text-align: center;
@@ -83,7 +83,6 @@ html, body {
 #name {
 	font-family: akashiregular;
 	font-size: 3em;
-	text-shadow: 1px 1px 1px #cdcdc1;
 }
 
 #caption {
