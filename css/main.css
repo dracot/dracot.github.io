@@ -44,7 +44,7 @@ html, body {
 	font-weight: normal;
 	margin: 0px;
 	text-align: center;
-	font-family: exomedium;
+	font-family: exobold;
 }
 
 @media (max-width: 768px) {
@@ -76,15 +76,22 @@ html, body {
 	}
 }
 
+.ui.segment {
+	webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
 #borderless tr {
 	border: 0px;
 }
 
 #name {
 	font-family: akashiregular;
-	font-size: 3em;
+	font-size: 4em;
+	font-weight: 700;
 }
 
 #caption {
 	font-family: akashiregular;
+	font-size: 1.5em;
 }
