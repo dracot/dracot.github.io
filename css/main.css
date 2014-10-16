@@ -39,7 +39,7 @@
 }
 
 html, body {
-	background-color: #02779E;
+	background-color: #EBE1C5; /*#02779E;*/
 	color: #112D4D;
 	font-weight: normal;
 	margin: 0px;
@@ -150,5 +150,13 @@ table[shade="pink"] {
 }
 
 table[shade="yellow"] {
-	background-color: #E2DDA5; 
+	background-color: #EBCC6E; 
+}
+
+table[shade="orange"] {
+	background-color: #ED834E;
+}
+
+table[shade="cream"] {
+	background-color: #EBE1C5;
 }
