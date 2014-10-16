@@ -141,12 +141,10 @@ html, body {
 	background-color: inherit;
 }
 
-table[color="blue"] {
+table[theme="blue"] {
 	background-color: #02779E;
-	color: #112D4D;
 }
 
-table[color="pink"] {
+table[theme="pink"] {
 	background-color: #FE4365;
-	color: #112D4D;
 }
