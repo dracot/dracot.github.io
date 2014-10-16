@@ -143,8 +143,10 @@ html, body {
 
 table[color="blue"] {
 	background-color: #02779E;
+	color: #112D4D;
 }
 
 table[color="pink"] {
 	background-color: #FE4365;
+	color: #112D4D;
 }
