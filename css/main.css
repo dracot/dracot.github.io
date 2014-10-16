@@ -39,7 +39,7 @@
 }
 
 html, body {
-	background: #184F8A;
+	background-color: #02779E;
 	color: #112D4D;
 	font-weight: normal;
 	margin: 0px;
@@ -79,9 +79,11 @@ html, body {
 	table[showon="handheld"] {
 		display: none!important;
 	}
+	
 	table[showon="desktop"] {
 		display: inherit!important;
 	}
+
 	#email {
 		font-size: 3em;
 	}
@@ -104,6 +106,7 @@ html, body {
 	font-family: akashiregular;
 	font-size: 4em;
 	font-weight: 700;
+	padding-top: 30px;
 }
 
 #caption {
@@ -113,4 +116,35 @@ html, body {
 
 #tools {
 	font-size: 0.8em;
+}
+
+#icon {
+	margin-right: 0px;
+}
+
+#icon-container {
+	font-size: 2em;
+	padding-top: 60px;
+}
+
+#text-container-right {
+	padding-right: 0px;
+	text-align: left;
+}
+
+#text-container-left {
+	padding-left: 0px;
+	text-align: right;
+}
+
+.ui.segment {
+	background-color: inherit;
+}
+
+table[color="blue"] {
+	background-color: #02779E;
+}
+
+table[color="pink"] {
+	background-color: #FE4365;
 }
