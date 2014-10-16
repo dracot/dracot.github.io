@@ -116,6 +116,7 @@ html, body {
 
 #tools {
 	font-size: 0.8em;
+	color: #061930;
 }
 
 #icon {
@@ -142,7 +143,8 @@ html, body {
 }
 
 table[shade="blue"] {
-	background-color: #02779E;
+	background-color: #112D4D;
+	color: #B43251;
 }
 
 table[shade="pink"] {
@@ -157,10 +159,14 @@ table[shade="orange"] {
 	background-color: #ED834E;
 }
 
-table[shade="cream"] {
-	background-color: #EBE1C5;
+table[shade="purple"] {
+	background-color: #BF6DC0;
 }
 
 table[shade="red"] {
 	background-color: #B43251;
+}
+
+table[shade="green"] {
+	background-color: #B2CF72;
 }
