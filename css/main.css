@@ -146,5 +146,9 @@ table[shade="blue"] {
 }
 
 table[shade="pink"] {
-	background-color: #FE4365;
+	background-color: #F13F5F;
+}
+
+table[shade="yellow"] {
+	background-color: #E2DDA5; 
 }
