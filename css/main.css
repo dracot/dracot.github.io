@@ -39,7 +39,7 @@
 }
 
 html, body {
-	background-color: #EBE1C5; /*#02779E;*/
+	background-color: #B43251; /*#02779E;*/
 	color: #112D4D;
 	font-weight: normal;
 	margin: 0px;
@@ -159,4 +159,8 @@ table[shade="orange"] {
 
 table[shade="cream"] {
 	background-color: #EBE1C5;
+}
+
+table[shade="red"] {
+	background-color: #B43251;
 }
