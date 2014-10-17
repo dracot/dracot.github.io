@@ -125,7 +125,7 @@ html, body {
 
 #icon-container {
 	font-size: 2em;
-	padding-top: 60px;
+	padding: 60px 0px 42px 0px;
 }
 
 #text-container-right {
