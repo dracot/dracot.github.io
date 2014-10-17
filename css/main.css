@@ -129,11 +129,11 @@ html, body {
 }
 
 #text-container-right {
-	padding-right: 0px;
+	/*padding-right: 0px;*/
 }
 
 #text-container-left {
-	padding-left: 0px;
+	/*padding-left: 0px;*/
 }
 
 .ui.segment {
