@@ -130,12 +130,10 @@ html, body {
 
 #text-container-right {
 	padding-right: 0px;
-	text-align: left;
 }
 
 #text-container-left {
 	padding-left: 0px;
-	text-align: right;
 }
 
 .ui.segment {
