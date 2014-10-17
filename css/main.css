@@ -103,14 +103,12 @@ html, body {
 }
 
 #name {
-	font-family: akashiregular;
 	font-size: 4em;
 	font-weight: 700;
 	padding-top: 30px;
 }
 
 #caption {
-	font-family: akashiregular;
 	font-size: 1.1em;
 }
 
