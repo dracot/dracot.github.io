@@ -136,6 +136,10 @@ html, body {
 	/*padding-left: 0px;*/
 }
 
+#section-title {
+	font-size: 3em;
+}
+
 .ui.segment {
 	background-color: inherit;
 }
